@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background:url(bg.jpg);
+    background-size: cover;
+    color: black;
+}
+.Registration-Form{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 350px;
+}
+.Registration-Form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    border: 5px dashed blue;
+    color: rgb(32, 40, 48);
+}
+.Registration-Form h3{
+    margin: 4px 10px;
+    width: 220px;
+    text-transform: uppercase;
+}
+.Registration-Form input{
+    margin: 2px 10px ;
+    padding: 3px;
+    border: 3px dashed rgb(37, 46, 66);
+    border-radius: 5px;
+
+}
+.Registration-Form button{
+    padding: 4px;
+    margin:1px -9px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.Registration-Form h1:hover{
+    color: blue;
+    border-color: rgb(240, 2, 228);
+    background-color: rgb(2, 214, 37);
+}
+.Registration-Form input:hover{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-color: lightcyan;
+}
+.Registration-Form h3:hover{
+    color: lightgoldenrodyellow;
+}
+.Registration-Form button:hover{
+    background-color: darkslategrey;
+    color: lightsalmon;
+}
